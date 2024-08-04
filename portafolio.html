@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer portafolio | Eugenia Curbelo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+
+        <header id="cabecera">
+            <h1>¡Hola Mundo! Mi nombre es Eugenia Curbelo</h1>
+        </header>
+        
+        <section id="descripcion">
+            <img class="fotos" src="https://media.licdn.com/dms/image/D4D03AQF9PYSLxownJw/profile-displayphoto-shrink_200_200/0/1708130010362?e=2147483647&v=beta&t=cDWRE7jUxu8lBkBljlc-xGsNkHPX8WdUX9rXK8Q4uCY" alt="Eugenia">
+            <h2>Sobre mi</h2>
+            <p>Soy de Montevideo. Vivo con mis dos gatos Ulises y Benicia. Me apasiona el diseño,
+            soy empática y comprometida. He trabajado en diseño de comunicación visual empresarial e institucional. </p>
+        </section>
+
+        <section class="trabajos">
+            <h2>Trabajos hechos</h2>
+
+        <div class="fotos">
+            <img src="img/identidad.jpg">
+            <img src="img/editorial.jpg">
+            <img src="img/media.jpg">
+        </div>
+        </section>
+
+        <footer class="textofooter">
+
+            <h2 id="contactar">Contacto</h1> 
+            <p>Enviar un mensaje</p>
+
+            <form action="procesar_registro.php" method="post">
+
+                <label for="nombre">Su nombre </label> <!-- Nombre -->
+                <input type="text" name="nombre" id="nombre"> <br><br>
+
+                <label for="email">Su email</label>
+                <input type="text" name="email" id="email"> <br><br>
+
+                <label>Motivo</label> <!-- Temática -->
+                <select name="Tematica" id="Tematica">
+                    <option value="-- Elige un tema --" selected disabled>-- Elige un tema --</option>
+                    <option value="Consulta">Consulta</option>
+                    <option value="Presupuesto">Quiero un presupuesto</option>
+                    <option value="Colaboración">Solicitud de colaboración</option>
+                    <option value="Otro">Otro</option>
+                </select><br><br>
+
+                <label>Mensaje </label> <!-- Cuerpo -->
+                <textarea name="" id=""></textarea> <br><br>
+
+                <input type="submit" value="Enviar">
+            </form> 
+
+            <div class="end">
+                <p>Gracias por visitar mi página :D</p>
+            </div>
+
+        </footer>
+    
+</body>
+</html>

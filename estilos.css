@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* ID1 cabecera */
+#cabecera {
+    background-color: #ff0090;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 40px;
+    text-align: center;
+    
+}
+
+/* Clase1 para las fotos*/
+.fotos {
+    max-width: 100%;
+    border-radius: 8px;
+    
+}
+
+
+/* ID2 descripción */
+#descripcion {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+section p {
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Clase2 texto del footer */
+.textofooter {
+    font-size: 1.3em;
+    margin: 5px 0;
+}
+
+/* Estilos para formulario contacto */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label, input, select, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 80px;
+}
+
+input[type="submit"] {
+    background-color: #d80f6d;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    max-width: fit-content;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff0687;
+}
+
+/* Clase3 despedida */
+.end {
+    margin: 90px;
+    font-size: 1.3em;
+
+}
